@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sahraoui Bourahim – Herbalist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f7f7f7;
+        }
+        header {
+            background: #2e7d32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            background: white;
+            margin: 15px;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #2e7d32;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        button {
+            background: #2e7d32;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #eee;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sahraoui Bourahim</h1>
+    <p>Herbalist – Natural Herbs & Royal Honey</p>
+</header>
+
+<section>
+    <h2>📞 Contact</h2>
+    <p>Phone: <strong>0728403673</strong></p>
+    <p>
+        <a href="https://www.google.com/maps?q=34.06389,6.78100" target="_blank">
+            📍 View Location on Google Maps
+        </a>
+    </p>
+</section>
+
+<section>
+    <h2>🌿 Our Products</h2>
+
+    <div class="product">
+        <h3>Royal Honey</h3>
+        <p>100% Natural Royal Honey</p>
+        <p><strong>Price:</strong> Contact us</p>
+    </div>
+
+    <div class="product">
+        <h3>Natural Herbs</h3>
+        <p>Traditional Moroccan herbs</p>
+        <p><strong>Price:</strong> Contact us</p>
+    </div>
+</section>
+
+<section>
+    <h2>🛒 Place an Order</h2>
+    <p><strong>Payment method:</strong> Cash on Delivery</p>
+
+    <form onsubmit="orderMessage(); return false;">
+        <input type="text" placeholder="Your Name" required>
+        <input type="tel" placeholder="Your Phone Number" required>
+        <input type="text" placeholder="Product Name" required>
+        <button type="submit">Place Order</button>
+    </form>
+</section>
+
+<footer>
+    <p>Thank you very much for your trust 🌿  
+    We have received your order and will contact you shortly to confirm it.</p>
+</footer>
+
+<script>
+    function orderMessage() {
+        alert("Thank you very much for your trust 🌿\nWe have received your order and will contact you shortly to confirm it.");
+    }
+</script>
+
+</body>
+</html>
